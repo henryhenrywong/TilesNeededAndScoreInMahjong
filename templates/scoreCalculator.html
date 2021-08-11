@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+<head>
+    <meta charset="UTF-8">
+    <title>Mahjong Stat</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div id = "links">
+        <a href="{{url_for('home')}}" >Tiles Needed To Win</a>
+        <a href="{{url_for('scoreCalculator')}}" >HK Score Calculator</a>
+    </div>
+    <h1>Hong Kong Mahjong Score Calculator</h1>
+    <div id="windSelection">
+        <label for="seatWind">Select Seat Wind:</label>
+        <select name="seatWind" id="seatWind">
+            <option value="1">East</option>
+            <option value="2">South</option>
+            <option value="3">West</option>
+            <option value="4">North</option>
+        </select>
+        <label for="prevailingWind">Select Seat Wind:</label>
+        <select name="prevailingWind" id="prevailingWind">
+            <option value="1">East</option>
+            <option value="2">South</option>
+            <option value="3">West</option>
+            <option value="4">North</option>
+        </select>
+    </div>
+    <div id="container">
+        <div>
+            <h2>Selection:</h2>
+            <div id="selection"></div>
+            <br>
+            <b>Current Hand:</b>
+            <div id="handContainer"></div>
+            <input type = "button" value="Check hand" onclick="checkHand()">
+            <input type = "button" value="Clear hand" onclick="clearHand()">
+        </div>
+        <br>
+        <div id="output">
+            <b>Winning Hand:</b>
+            <div id="sampleOutput"></div>
+            <div id="scorePlaceholder"></div>
+        </div>
+    </div>
+
+</body>
+<script src="{{url_for('static', filename='js/script.js')}}"></script>
+<script src="{{url_for('static', filename='js/interactive.js')}}"></script>
+<link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+</html>

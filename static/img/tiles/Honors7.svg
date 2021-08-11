@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg viewBox="0 0 300 400" xmlns="http://www.w3.org/2000/svg">
+  <rect x="47.138" y="58.76" width="206.51" height="317.845" style="fill: rgb(157, 74, 74); paint-order: fill; fill-opacity: 0; stroke: rgb(85, 96, 218); stroke-width: 5px;" rx="8.979" ry="8.979"/>
+  <rect x="60.606" y="71.331" width="178.227" height="291.358" style="fill: rgb(157, 74, 74); paint-order: fill; fill-opacity: 0; stroke: rgb(85, 96, 218); stroke-width: 5px;" rx="8.979" ry="8.979"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(85, 96, 218); stroke-width: 5px; paint-order: fill; fill-opacity: 0;" d="M 61.504 85.247 C 71.344 85.247 80.133 79.687 83.502 71.331"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(85, 96, 218); stroke-width: 5px; paint-order: fill; fill-opacity: 0;" d="M 216.741 71.331 C 226.581 71.331 235.37 76.891 238.739 85.247" transform="matrix(-1, 0, 0, -1, 455.480011, 156.578003)"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(85, 96, 218); stroke-width: 5px; paint-order: fill; fill-opacity: 0;" d="M 60.606 348.623 C 70.446 348.623 79.235 354.183 82.604 362.539"/>
+  <path style="fill: rgb(216, 216, 216); stroke: rgb(85, 96, 218); stroke-width: 5px; paint-order: fill; fill-opacity: 0;" d="M 216.741 362.539 C 226.581 362.539 235.37 356.979 238.739 348.623" transform="matrix(-1, 0, 0, -1, 455.480011, 711.161987)"/>
+</svg>
